@@ -16,3 +16,6 @@ cd Sparse-MoE-SAM
 
 # Install dependencies
 pip install -r requirements.txt
+
+## 2. Project Structure
+Organize your project directory as follows:
