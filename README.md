@@ -91,18 +91,4 @@ Key hyperparameters are configured in `train.py` (via `argparse`). You can adjus
 | `--k`        | `3`         | Order of Jacobi Polynomials (for Spectral Filters) |
 | `--experts`  | `4`         | Number of experts in the MoE layer                 |
 
-## 🤝 Citation
-
-If you find this code useful for your research, please cite our paper:
-
-Code snippet
-
-```
-@article{kang2026ssadamoe,
-  title={SS-AdaMoE: Spatio-Spectral Adaptive Mixture of Experts with Global Structural Priors for Graph Node Classification},
-  author={Kang, Xilin and Yu, Tianyue and Wang, LeTao and Guo, Yutong and Zhang, Fengjun},
-  journal={Entropy},
-  year={2026}
-}
-```
 
