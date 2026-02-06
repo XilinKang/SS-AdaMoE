@@ -9,6 +9,7 @@ This repository contains the official PyTorch implementation of the paper:
 ## 🚀 Overview
 
 **SS-AdaMoE** is a novel Graph Neural Network (GNN) framework designed to tackle heterophily and over-smoothing. It introduces:
+
 - **Dual-Domain Expert System:** Integrating spatial aggregators with learnable spectral filters (implemented via Jacobi Polynomials in `models/Spectral_2.py`).
 - **Adaptive Routing:** A gating mechanism to dynamically select optimal experts for each node.
 
@@ -31,6 +32,7 @@ MOE_GNN/
 ├── cuda.py               # GPU device management
 ├── data_utils.py         # Data preprocessing and loading utilities
 └── requirements.txt      # Python dependencies
+```
 
 ## 🛠️ Installation
 
