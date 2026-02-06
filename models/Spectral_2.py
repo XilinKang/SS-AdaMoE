@@ -105,7 +105,6 @@ class JacobiExpert(nn.Module):
         self.jacobi_conv = JacobiConv(K, a, b, use_pcd)
 
     def forward(self, x, edge_index):
-        # 先通过MLP（保持您原有的前向传播逻辑）
         for lin, bn in zip(self.lins[:-1], self.bns):
             x = lin(x)
             x = bn(x)
@@ -116,4 +115,5 @@ class JacobiExpert(nn.Module):
 
         # 应用Jacobi频谱滤波器
         x = self.jacobi_conv(x, edge_index)
+
         return x
