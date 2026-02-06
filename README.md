@@ -1,4 +1,3 @@
-```
 # SS-AdaMoE: Spatio-Spectral Adaptive Mixture of Experts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -32,7 +31,6 @@ MOE_GNN/
 ├── cuda.py               # GPU device management
 ├── data_utils.py         # Data preprocessing and loading utilities
 └── requirements.txt      # Python dependencies
-```
 
 ## 🛠️ Installation
 
